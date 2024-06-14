@@ -1,0 +1,91 @@
+import {StyleSheet} from 'react-native';
+
+export const stylesScreen = StyleSheet.create({
+  textEmpty: {
+    color: 'white',
+    textAlign: 'center',
+    marginVertical: 5,
+  },
+  btnAddTask: {
+    height: 50,
+    flexDirection: 'row',
+    backgroundColor: '#164877',
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 35,
+    marginTop: -25,
+    borderRadius: 50 / 2,
+    elevation: 3,
+    overflow: 'hidden',
+  },
+  viewLine: {
+    width: '85%',
+    height: 2,
+    backgroundColor: 'white',
+    alignSelf: 'center',
+    transform: [{rotate: '-2deg'}],
+  },
+  textBtnTitle: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  btnAuthSubmit: {
+    height: 45,
+    width: '80%',
+    backgroundColor: '#00677E',
+    elevation: 3,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 45 / 2,
+    overflow: 'hidden',
+  },
+  viewRememberMe: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'flex-end',
+  },
+  viewAuth: {
+    backgroundColor: '#ffffff4d',
+    width: '100%',
+    borderRadius: 20,
+    padding: 30,
+  },
+  textAuthTitle: {
+    color: 'white',
+    fontSize: 35,
+    textAlign: 'center',
+    fontWeight: 'bold',
+    textShadowRadius: 1,
+    textShadowColor: 'black',
+    textShadowOffset: {
+      width: 1,
+      height: 1,
+    },
+  },
+  textVersion: {
+    color: 'white',
+    position: 'absolute',
+    bottom: 5,
+    fontWeight: 'bold',
+  },
+  containerCenter: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  containerHome: {
+    maxWidth: 640,
+    alignSelf: 'center',
+    width: '100%',
+    flex: 1,
+  },
+  container: {
+    maxWidth: 480,
+    alignSelf: 'center',
+    width: '85%',
+    paddingVertical: 20,
+  },
+});

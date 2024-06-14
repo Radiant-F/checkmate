@@ -1,0 +1,93 @@
+import {StyleSheet, StatusBar} from 'react-native';
+
+export const stylesComponent = StyleSheet.create({
+  textBtnTitle: {
+    color: 'white',
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  btnSubmitModal: {
+    height: 45,
+    width: 130,
+    backgroundColor: '#00677E',
+    overflow: 'hidden',
+    alignSelf: 'center',
+    borderRadius: 45 / 2,
+    elevation: 3,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  viewModalInput: {
+    paddingHorizontal: 10,
+    marginVertical: 20,
+    marginBottom: 10,
+  },
+  modalHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  containerModal: {
+    backgroundColor: '#164877',
+    elevation: 5,
+    width: '85%',
+    maxWidth: 450,
+    alignSelf: 'center',
+    padding: 20,
+    borderRadius: 20,
+    flex: 1,
+    justifyContent: 'center',
+    marginVertical: 20,
+  },
+  backdrop: {
+    backgroundColor: 'black',
+    opacity: 0.5,
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+  },
+  btnSignOut: {
+    width: 50,
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    transform: [{rotate: '180deg'}],
+  },
+  textUsername: {
+    color: 'white',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  containerHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginHorizontal: 25,
+    marginRight: 35,
+    marginTop: StatusBar.currentHeight ? StatusBar.currentHeight + 20 : 50,
+  },
+  textInputCounter: {
+    textAlign: 'right',
+    color: 'white',
+  },
+  textInput: {
+    flex: 1,
+    marginHorizontal: 5,
+    color: 'black',
+  },
+  containerInput: {
+    backgroundColor: 'white',
+    height: 50,
+    flexDirection: 'row',
+    borderRadius: 50 / 2,
+    alignItems: 'center',
+    paddingHorizontal: 15,
+    elevation: 5,
+    marginVertical: 5,
+  },
+  image: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    opacity: 0.75,
+  },
+});
